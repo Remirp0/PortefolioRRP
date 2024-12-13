@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a78;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000051;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  main {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Aligne les images et les textes en haut */
+    gap: 20px; /* Espacement entre les colonnes */
+    flex-wrap: wrap; /* S'assure que les colonnes passent à la ligne sur les petits écrans */
+    margin-top: 30px;
+  }
+  
+  .chart-container {
+    text-align: center;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 750px; /* Largeur maximale du conteneur */
+  }
+  
+  .chart-container img {
+    max-width: 100%; /* Rend l'image responsive */
+    height: auto; /* Conserve les proportions de l'image */
+    margin-bottom: 10px;
+  }
+  
+  .chart-container p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #025959;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 600px;
+    width: 1600px;
+  }
+
+  
+  

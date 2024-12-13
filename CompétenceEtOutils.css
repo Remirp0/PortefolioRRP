@@ -1,0 +1,84 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1A237E;
+    color: white;
+}
+
+header {
+    background-color: #000051;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.github-section {
+    margin: 30px 0;
+}
+
+.github-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.tools img {
+    width: 80px;
+    height: 80px;
+}
+
+.tools div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #025959;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 600px;
+    width: 1600px;
+  }
