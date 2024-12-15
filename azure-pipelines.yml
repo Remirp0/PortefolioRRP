@@ -8,9 +8,9 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  name: LocalPool
+  name: Cyberpool
   demands:
-  - Agent.Name -equals S124-06
+  - Agent.Name -equals MSI
 
 steps:
 - script: echo Hello, world!
