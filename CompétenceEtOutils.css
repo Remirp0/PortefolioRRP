@@ -39,35 +39,35 @@ header {
     margin-bottom: 20px;
 }
 
-.github-section {
-    margin: 30px 0;
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Espace entre les catégories */
 }
 
-.github-section img {
-    width: 50px;
-    height: 50px;
+.category {
+  text-align: center;
 }
 
-.tools {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    margin-top: 30px;
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Aligne les images au centre */
+  gap: 40px; /* Espace entre les images */
+  margin-bottom: 20px;
 }
 
-.tools img {
-    width: 80px;
-    height: 80px;
+.images img {
+  max-width: 80px; /* Taille maximale des images (vous pouvez ajuster cette valeur) */
+  max-height: 80px;
+  object-fit: contain; /* Pour que l'image garde ses proportions */
+  border-radius: 5px; /* Facultatif : coins arrondis */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour plus de style */
 }
-
-.tools div {
-    text-align: center;
-}
-
 h1 {
     font-size: 2em;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
   }
   .charts {
