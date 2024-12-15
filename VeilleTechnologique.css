@@ -37,7 +37,7 @@ h1 {
 
 .content {
   padding: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .content h1 {
@@ -68,6 +68,7 @@ h1 {
   box-sizing: border-box;
   padding: 20px;
   gap: 30px;
+  text-align: justify;
 }
 
 .carousel-item img {
@@ -135,6 +136,6 @@ h1 {
   padding: 10px;
   border-radius: 10px;
   margin: 0 auto;
-  height: 1000px;
+  height: 750px;
   width: 1600px;
 }
