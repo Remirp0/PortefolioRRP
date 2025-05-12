@@ -1,24 +1,49 @@
-/* Reset CSS */
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a78;
+    color: white;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
-  
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1A237E;
-    color: white;
 }
 
 header {
-    background-color: #000051;
-    padding: 10px 20px;
-    margin-bottom: 30px;
+  background-color: #000051;
+  color: white;
+  padding: 10px 20px;
+}
+
+header h1 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+  main {
+    text-align: center;
+    padding: 40px 20px;
   }
   
-  nav ul {
+.competences-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #025959;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 700px;
+    width: 1600px;
+  }
+
+ nav ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -30,56 +55,31 @@ header {
     font-weight: bold;
   }
 
-.content {
-    padding: 20px;
-    text-align: center;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.content h1 {
-    margin-bottom: 20px;
-}
-
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px; /* Espace entre les catégories */
-}
-
-.category {
+td {
   text-align: center;
+  padding: 15px;
 }
 
-.images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Aligne les images au centre */
-  gap: 40px; /* Espace entre les images */
-  margin-bottom: 20px;
+td img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
 }
 
-.images img {
-  max-width: 80px; /* Taille maximale des images (vous pouvez ajuster cette valeur) */
-  max-height: 80px;
-  object-fit: contain; /* Pour que l'image garde ses proportions */
-  border-radius: 5px; /* Facultatif : coins arrondis */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour plus de style */
+td p {
+  font-weight: bold;
 }
-h1 {
-    font-size: 2em;
-    margin-bottom: 40px;
-    text-align: center;
-  }
-  .charts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-    background-color: #025959;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-    height: 600px;
-    width: 1600px;
-  }
+
+td:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s;
+}
