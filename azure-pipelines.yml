@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
   name: Cyberpool
   demands:
-  - Agent.Name -equals MSI
+  - Agent.Name -equals cyber-pool
 
 steps:
 - script: echo Hello, world!
