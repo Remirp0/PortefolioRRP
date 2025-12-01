@@ -127,13 +127,17 @@ h1 {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.charts .content .carousel .carousel-track .carousel-item p {
+  color: #000000; /* Noir */
+}
+
 .charts {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 60px;
-  background-color: #025959;
+  background-color: #3498db;
   padding: 10px;
   border-radius: 10px;
   margin: 0 auto;

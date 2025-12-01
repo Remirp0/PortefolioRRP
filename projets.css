@@ -50,6 +50,10 @@ header {
     color: #CCCCCC;
 }
 
+.charts .content .carousel .carousel-track .carousel-item p {
+  color: #000000; /* Noir */
+}
+
 .carousel {
     position: relative;
     width: 80%;
@@ -133,7 +137,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    background-color: #025959;
+    background-color: #3498db;
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;

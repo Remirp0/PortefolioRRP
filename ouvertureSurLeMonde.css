@@ -46,7 +46,7 @@
     flex-wrap: wrap; /* autorise retour ligne si trop étroit */
     justify-content: center;
     gap: 40px;
-    background-color: #025959;
+    background-color: #3498db;
     padding: 20px;
     border-radius: 10px;
     max-width: 1200px;

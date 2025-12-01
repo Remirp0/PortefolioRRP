@@ -49,11 +49,11 @@ section {
 }
 
 #section2  {
-    color: #00A3FF; 
+    color: #1c2280; 
 }
 
 #section3 {
-    color: #5E9CBE; 
+    color: #771414; 
 }
 
 #section4 {
@@ -79,7 +79,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 60px;
-    background-color: #025959;
+    background-color: #3498db;
     padding: 10px;
     border-radius: 10px;
     margin: 0 auto;
